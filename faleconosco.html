@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Fale conosco</title>
+<!-- Aqui chamamos o nosso arquivo css externo -->
+<link rel="stylesheet" type="text/css"  href="CSS.css" />
+</head>
+<body>
+	
+	<nav id="menu2">
+<ul>
+<li><a href="Tentativa.html">Inicio</a></li>
+<li><a href="quemsomos.html">Quem somos?</a></li>
+<li><a href="trabalhossociais.html">Trabalhos sociais</a></li>
+<li><a href="parcerias.html">Parcerias</a></li>
+<li><a href="quandonosreunimos.html">Quando nos reunimos?</a></li>
+<li><a href="ministerios.html">Ministerios</a></li>
+<li><a href="faleconosco.html">Fale conosco</a></li>
+</ul>
+</nav>
+<h5>Fale conosco</h5>
+
+
+<div style="background-color:black;text-align:center">
+<p id="help2">Quer entrar em contato conosco? esse é um espaço nosso! vc já teve a oportudade de nos conhecer, saber como pensamos, como servimos, e quem é o nosso mestre! agora queremos conhecer voce. deixe seu comentário, sugestão ou até testemunho... o que quiser nos contar deixe aí! ah, e se quiser contribuir com nosso ministério sinta-se a vontade (nosso objetivo é mudar a localização e pra isso precisamos de dinheiro hahahaha) que o Eterno te abençoe muito! </p>
+</div>
+
+<img id="help" src="https://scontent.fnat1-1.fna.fbcdn.net/v/t1.0-9/13612368_259829164392164_4257362935261416306_n.jpg?oh=b1f2a405b77c887b6299d56b782305df&oe=58D417EB" height="548" width="1270"/>
+
+
+<fieldset>
+	   <legend>Vamos conversar!</legend>
+		
+		<form action = "mailto:querenluna@gmail.com" method="post" name= "contato" >
+	   		<table>
+		
+	     <tr>
+	       <td><label for= "txtLogin" >Nome:</label></td>
+	       <td><input type="text" name= "txtLogin" id="txtLogin" size= "20" 
+	         maxlength = "15" value=""></td>
+	     </tr>
+	     <tr>
+	       <td><label for="data">Data de nascimento:</label></td>
+	       <td><input type="date" name="data"></td>
+	    </tr>
+	          
+	     <tr>
+	       <td><label for="email">E-mail:</label></td>
+	       <td><input type="email" name="email" required/></td>
+	    </tr>   
+	     <tr>
+	       <td><label for="sexo">Sexo:</label></td>
+	       <td>
+	         <input type="radio" name="opSexo" value="M" 
+	           checked="checked">Masculino
+	         <input type="radio" name="opSexo" value="F">Feminino 
+	       </td>
+	    </tr>   
+	    	     
+	    <tr>
+	      <td><label for=" upload ">Foto para identificacao:</label></td>
+	      <td><input type="file" name="upload"></td>
+	    </tr>   
+	    
+	    <tr>
+	       <td><label for="obs">Abra seu coraçao:</label></td>
+	       <td>
+	          <textarea name="txtObs" rows="4" cols="30" ></textarea>
+	       </td>
+	    </tr>
+	    
+	    <tr>
+	       <td><label for="campus">Voce já conhece o Amor de Jesus?:</label></td>
+	       <td>
+	          <select name="cmbCampus">
+	            <option value ="AP">já ouvi falar mas nunca senti</option>
+	            <option value ="NAT">nao.</option>
+	            <option value= "PA" selected>Sim!</option>
+	          </select>
+	       </td>
+	    </tr>
+	    
+	      <tr>
+	       <td colspan="2" align="center"> 
+	         <input class="envia_form" type="submit" value="Enviar"/>
+	         <input class="limpa_form" type="reset" value="Limpar"
+	           onclick="limpa()" />
+	       </td>
+	      
+	</table>
+		</form>
+	</fieldset>
+	
+	<p id="text2">Caso se sinta a vontade pra contribuir os dados sao esses abaixo:</p>
+	<p id="text3">Banco do Brasil:xxxxxxxxxxx
+				  Caixa:xxxxxxxxxxx
+				  Bradesco:xxxxxxxxxxx</p>
+
+</body>
+</html>
